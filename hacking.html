@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e9ebee;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+     
+    }
+
+    .logo {
+      color: #1877f2;
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .login-box {
+      background-color: white;
+      padding: 25px;
+      width: 500px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .login-box input {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }.login-box button:hover {
+      background-color: #166fe5;
+    }
+
+    .login-box a {
+      display: block;
+      margin-top: 20px;
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .login-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">facebook</div>
+    <div class="login-box">
+      <form>
+        <input type="text" placeholder="Email or phone number" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+        <a href="#">Forgotten password?</a>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
